@@ -20,6 +20,10 @@ public class DemoApplication {
 	public String home() {
 		return myService.message();
 	}
+    @GetMapping("/shreya")
+	public String home() {
+		return myService.message();
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
